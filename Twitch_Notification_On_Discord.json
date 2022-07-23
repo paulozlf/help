@@ -1,0 +1,34 @@
+// Edit by @paulozlf - 07/23/2022
+// Link : https://www/beacons.ai/paulozlf
+
+{
+    "username":"Twitch Alert", 
+    "avatar_url":"https://i.imgur.com/HPwbLNo.png",
+    "content": "@everyone Nous sommes actuellement en live !",
+    "embeds": [{
+      "title": "{{ChannelUrl}}",
+      "url": "{{ChannelUrl}}",
+      "color": 6570404,
+      "footer": {
+        "text": "{{CreatedAt}}"
+      },
+      "image": {
+        "url": "{{StreamPreview}}"
+      },
+      "author": {
+        "name": "{{ChannelName}} est actuellement en live !"
+      },
+      "fields": [
+        {
+          "name": "Playing",
+          "value": "{{Game}}",
+          "inline": true
+        },
+        {
+          "name": "Début de la diffusion",
+          "value": "{{CreatedAt}}",
+          "inline": true
+        }
+      ]
+    }]
+}
