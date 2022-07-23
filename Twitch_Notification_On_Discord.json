@@ -4,7 +4,7 @@
 {
     "username":"Twitch Alert", 
     "avatar_url":"https://i.imgur.com/HPwbLNo.png",
-    "content": "@everyone Nous sommes actuellement en live !",
+    "content": "@everyone we are currently in live on Twitch !",
     "embeds": [{
       "title": "{{ChannelUrl}}",
       "url": "{{ChannelUrl}}",
@@ -16,7 +16,7 @@
         "url": "{{StreamPreview}}"
       },
       "author": {
-        "name": "{{ChannelName}} est actuellement en live !"
+        "name": "{{ChannelName}} is currently in live !"
       },
       "fields": [
         {
@@ -25,7 +25,7 @@
           "inline": true
         },
         {
-          "name": "Début de la diffusion",
+          "name": "Broadcast started since",
           "value": "{{CreatedAt}}",
           "inline": true
         }
